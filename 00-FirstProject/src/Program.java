@@ -7,3 +7,11 @@ public class Program {
 	}
 
 }
+
+/*  Java 可以有多個程式進入點
+class TX {
+	public static void main(String[] args) {
+		System.out.println("KTM");
+	}
+}
+*/
