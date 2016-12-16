@@ -52,6 +52,17 @@ public class Loop {
 			System.out.println(randomNum);
 		}
 		
+		System.out.println("----找非質數----");
+		LBL :
+		for (int i = 6; i < 9127; i++) {
+			for (int k = 2; k < i; k++) {
+				if( i % k == 0) {
+					System.out.println(i + "為最小非質數");
+					break LBL;
+				}
+			}
+		}
+		
 	}
 
 }
