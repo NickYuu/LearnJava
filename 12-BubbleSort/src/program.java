@@ -19,7 +19,6 @@ public class program {
 		System.out.println();
 		System.out.println("#################################");
 		// fix 練習 #1 從 小 到 大 印出這 6 個號碼:
-
 		for (int i = 0; i < numbers.length - 1; i++) {
 			for (int j = 0; j < numbers.length - i - 1; j++) {
 				if (numbers[j + 1] < numbers[j]) {
